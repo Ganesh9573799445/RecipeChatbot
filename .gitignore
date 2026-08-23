@@ -24,7 +24,12 @@ Thumbs.db
 # Test/cache files
 .pytest_cache/
 
-# Large local data/model files
-# Uncomment these if they are too large for GitHub
-data/
-models/
+# Large files handled by Git LFS
+data/*
+models/*
+
+!data/RAW_recipes.csv
+!models/recipe_embeddings.npy
+
+# Local database backup
+recipe_chatbot_backup.sql
