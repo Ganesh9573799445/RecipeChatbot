@@ -1,15 +1,10 @@
 import streamlit as st
 import json
-import pandas as pd
-import ast
 from PIL import Image
 from src.auth import register_user, login_user
 from src.recommender import recommend_recipes
 from src.image_processor import detect_ingredients
 
-df = pd.read_csv(
-    "data/RAW_recipes.csv"
-)
 
 from src.database import (
     create_chat_session,
