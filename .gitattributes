@@ -1,2 +1,3 @@
 data/RAW_recipes.csv filter=lfs diff=lfs merge=lfs -text
 models/recipe_embeddings.npy filter=lfs diff=lfs merge=lfs -text
+data/recipes_deploy.csv filter=lfs diff=lfs merge=lfs -text

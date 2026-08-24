@@ -16,7 +16,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PATH = os.path.join(
     BASE_DIR,
     "data",
-    "RAW_recipes.csv"
+    "recipes_deploy.csv"
 )
 
 EMBEDDINGS_PATH = os.path.join(
@@ -281,7 +281,6 @@ def recommend_recipes(
             'name',
             'ingredients',
             'steps',
-            'description',
             'ingredient_text',
             'similarity',
             'ingredient_match',

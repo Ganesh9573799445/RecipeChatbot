@@ -29,6 +29,7 @@ data/*
 models/*
 
 !data/RAW_recipes.csv
+!data/recipes_deploy.csv
 !models/recipe_embeddings.npy
 
 # Local database backup
